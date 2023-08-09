@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+tr:nth-child(odd){
+  background-color: orange;
+}
+tr{
+  background-color: bisque;
+}
+table{
+  border-collapse: collapse;
+  margin-top: 50px;
+  /* margin-top: 30px; */
+}
+.navbar{
+  text-decoration: none;
+  color: rgb(253, 250, 250);
+  font-weight: bold;
+  
+}
+.parent{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  height: auto;
+  background-color: rgb(7, 7, 235);
+  text-decoration: none;
+  
+}
+.h1{
+  float: left;
+  margin-left:0px;
+  font-size: 2rem;
+}
+button{
+  float: right;
+  margin-right:5%;
+  margin-top: 5%;
+  height:8vh;
+  width: 20wh;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  background-color: rgb(231, 90, 173);
+  margin-bottom: 50px;
+  color: bisque;
+}
+.heading{
+  background-color: #9c61fb;
+}
+input{
+  margin-left: 5%;
+  height: 40px;
+  width: 30vw;
+  min-width: 250px;
+  text-align: center;
+  margin-top: 13%;
+  margin-right: 0%;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  background-color: #d24dfa;
+  
+}
+::placeholder{
+  color:white
+}
+label{
+  margin-left: 4%;
+  font-size: 1.4rem;
+}
+input:hover{
+  box-shadow:0px 0px 12px rgb(51, 17, 58);
+}
+
+/* CSS */
+button {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+#name{
+  margin-right: 2%;
+}
+
+button:hover,
+button:active {
+  background-color: white;
+  /* background-position: 0 0; */
+  color: #FF4742;
+}
